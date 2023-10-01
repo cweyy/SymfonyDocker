@@ -36,3 +36,4 @@ RUN curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | ba
 
 # Install NodeJS
 RUN apt install nodejs -y
+RUN apt install npm -y
